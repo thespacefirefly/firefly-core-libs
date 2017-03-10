@@ -1,0 +1,28 @@
+{
+  "name": "firefly-core-libs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests/**",
+    "doc": "WIP",
+    "start": "node index.js"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thespacefirefly/firefly-core-libs.git"
+  },
+  "author": "@k33g_org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thespacefirefly/firefly-core-libs/issues"
+  },
+  "homepage": "https://github.com/thespacefirefly/firefly-core-libs#readme",
+  "dependencies": {
+    "monet": "^0.8.10"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
